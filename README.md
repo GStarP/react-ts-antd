@@ -8,6 +8,7 @@
 - less
 - eslint
 - prettier
+- husky
 
 ## Command
 
