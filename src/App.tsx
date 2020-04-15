@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.less';
 
-import { Button } from 'antd'
+import { Button } from 'antd';
 
 function App() {
   return (

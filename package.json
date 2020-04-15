@@ -13,6 +13,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "lint:eslint": "eslint -c .eslintrc.js **/*.{js,jsx,ts,tsx}",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
