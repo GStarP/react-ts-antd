@@ -5,17 +5,18 @@ module.exports = {
     node: true
   },
   extends: [],
-  ignorePatterns: ["build", "node_modules"],
-  parser: "@typescript-eslint/parser",
+  ignorePatterns: ['build', 'node_modules'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true
     }
   },
-  plugins: ["@typescript-eslint"],
+  // 两者共同作用
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    semi: ["error", "always"]
+    'prettier/prettier': 'error'
   }
-};
+}
