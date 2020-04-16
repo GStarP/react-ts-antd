@@ -9,6 +9,12 @@
 - eslint
 - prettier
 - husky
+- react-router-dom
+
+## TODO
+
+- [ ] seperate routes
+- [ ] stylelint
 
 ## Command
 
